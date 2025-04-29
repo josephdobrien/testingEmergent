@@ -1,0 +1,11 @@
+plot_fitness_over_time: Creates a line graph showing how community fitness changes over time, with time on the x-axis and fitness values on the y-axis. Use this to plot fitness across the evolution of the simulation. 
+  
+plot_community_fitness: Generates a bar chart comparing fitness values across different communities, with each bar representing a community's fitness level. This function can be use to look at differences across communities at a single timestep in the simulation.
+  
+plot_fitness_graph: Visualizes a network graph where nodes are colored according to their fitness values, using a color gradient to represent fitness levels. This function can be use to look at differences across a given community at a single timestep in the simulation.
+  
+plot_fitness_distribution: Creates a histogram showing the frequency distribution of fitness values, helping to identify common fitness levels and outliers. When the simulation converges, all agents should be at the same location. This function can be used to observe the cognitive diversity of the community at a given timestep.
+  
+plot_fitness_heatmap: Produces a color-coded matrix visualization showing similarities between communities based on their fitness values. This function can be used to observe differeces in fitness at convergence or differences during some intermediate timestep.
+  
+plot_fitness_scatter: Generates a scatter plot showing the relationship between fitness values and another variable, useful for correlation analysis.
